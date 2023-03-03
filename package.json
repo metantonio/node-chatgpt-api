@@ -40,6 +40,7 @@
   "dependencies": {
     "@dqbd/tiktoken": "^0.4.0",
     "@fastify/cors": "^8.2.0",
+    "@waylaidwanderer/chatgpt-api": "^1.24.0",
     "@waylaidwanderer/fastify-sse-v2": "^3.1.0",
     "@waylaidwanderer/fetch-event-source": "^3.0.1",
     "boxen": "^7.0.1",

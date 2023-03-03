@@ -75,6 +75,6 @@ export default {
     // Options for the CLI app
     cliOptions: {
         // (Optional) Set to "bing" to use `BingAIClient` instead of `ChatGPTClient`.
-        // clientToUse: 'bing',
+        // clientToUse: 'bing', //chnage to cli for chatgpt
     },
 }

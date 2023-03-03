@@ -4,7 +4,7 @@ const bingAIClient = new BingAIClient({
     // Necessary for some people in different countries, e.g. China (https://cn.bing.com)
     host: '',
     // "_U" cookie from bing.com
-    userToken: '',
+    userToken: process.env("UCOOKIES"),
     // If the above doesn't work, provide all your cookies as a string instead
     cookies: '',
     // A proxy string like "http://<ip>:<port>"
