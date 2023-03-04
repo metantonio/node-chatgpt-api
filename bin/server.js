@@ -44,9 +44,10 @@ if (settings.storageFilePath && !settings.cacheOptions.store) {
     settings.cacheOptions.store = new KeyvFile({ filename: settings.storageFilePath });
 }
 
-const clientToUse = settings.apiOptions?.clientToUse || settings.clientToUse || 'chatgpt';
+const clientToUse = settings.apiOptions?.clientToUse || settings.clientToUse || 'bing';
 
 let client;
+
 switch (clientToUse) {
     case 'bing':
         client = new BingAIClient(settings.bingAiClient);
@@ -65,7 +66,7 @@ switch (clientToUse) {
         );
         break;
 }
-
+//console.log("\n client: ", client)
 const server = fastify();
 
 await server.register(FastifySSEPlugin);

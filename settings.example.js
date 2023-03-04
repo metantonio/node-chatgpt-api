@@ -70,11 +70,11 @@ export default {
         // (Optional) Set to true to enable `console.debug()` logging
         debug: false,
         // (Optional) Set to "bing" to use `BingAIClient` instead of `ChatGPTClient`.
-        // clientToUse: 'bing',
+        //clientToUse: 'bing',
     },
     // Options for the CLI app
     cliOptions: {
         // (Optional) Set to "bing" to use `BingAIClient` instead of `ChatGPTClient`.
-        // clientToUse: 'bing', //chnage to cli for chatgpt
+        clientToUse: 'bing', //chnage to cli for chatgpt
     },
 }

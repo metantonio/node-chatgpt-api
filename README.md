@@ -444,3 +444,11 @@ If you'd like to contribute to this project, please create a pull request with a
 
 ## License
 This project is licensed under the MIT License.
+
+# Request POST (JSON):
+``` http://localhost:3003/conversation
+
+{
+    "message":"SHould i eat orange?"
+}
+```
